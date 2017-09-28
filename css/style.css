@@ -1,0 +1,443 @@
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  webkit-tap-highlight-color: #a50404; }
+
+.text-muted {
+  color: #777; }
+
+p {
+  font-size: 16px;
+  line-height: 1.75; }
+
+p.large {
+  font-size: 18px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: PT Sans Narrow, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.img-centered {
+  margin: 0 auto; }
+
+.bg-light-gray {
+  background-color: #f7f7f7; }
+
+.bg-darkest-gray {
+  background-color: #222; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #a50404;
+  font-family: PT Sans Narrow, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-color: #a50404; }
+
+.btn-xl {
+  color: #fff;
+  background-color: #a50404;
+  font-family: PT Sans Narrow, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  border-color: #a50404;
+  padding: 20px 40px; }
+
+.navbar {
+  margin-bottom: 0px; }
+
+.navbar-default {
+  background-color: #fff;
+  border-color: transparent;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.2em; }
+
+.navbar-default .navbar-brand img {
+  height: 100%;
+  float: left;
+  padding-right: 10px; }
+
+.navbar-default .navbar-brand {
+  color: #222;
+  font-family: PT Sans Narrow, "Helvetica Neue", Helvetica, Arial, cursive; }
+
+.navbar-default .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02); }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff; }
+
+.navbar-default .nav li a {
+  font-family: PT Sans Narrow, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #222;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+  color: #a50404;
+  outline: 0; }
+
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 0;
+  color: #fff;
+  background-color: #a50404; }
+
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #a50404; }
+
+header #codeLandingSplash {
+  background-image: url(../img/coding.jpg);
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #fff;
+  z-index: 0;
+  float: left;
+  height: 50vh; }
+
+header a {
+  font-family: PT Sans Narrow, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff; }
+
+header a:hover {
+  text-decoration: none;
+  color: #fff; }
+
+header h1 {
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 5vh; }
+
+header h2 {
+  font-size: 2em;
+  letter-spacing: 0.05em;
+  margin-top: 0px;
+  margin-bottom: 10px; }
+
+header h3 {
+  font-size: 1em;
+  margin-top: 0px;
+  margin-bottom: 10px; }
+
+header .overlay {
+  background-image: url("../img/filter.png");
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  color: #fff;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease; }
+
+header #codeLandingSplash .overlay:hover,
+header #designLandingSplash .overlay:hover {
+  background: transparent; }
+
+header p {
+  padding-top: 10px;
+  font-size: 2em;
+  color: #fff; }
+
+.row {
+  margin: 0; }
+
+header #designLandingSplash {
+  background-image: url(../img/KlimtBG.jpg);
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #fff;
+  z-index: 0;
+  height: 50vh; }
+
+header .intro-text a {
+  color: #fff; }
+
+header .intro-text a:hover {
+  color: #a50404;
+  text-decoration: none; }
+
+header .intro-text .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px; }
+
+header .intro-text .intro-heading {
+  font-family: PT Sans Narrow, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px; }
+
+a.fill-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  opacity: 0; }
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: 0; }
+
+a:hover,
+a:focus,
+a:active,
+a.active,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+  color: #a50404; }
+
+.btn-default {
+  font-family: "Pt Sans Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: transparent;
+  display: inline-block;
+  border-radius: 2px;
+  border: none;
+  padding: 5px;
+  border: 1px solid #fff;
+  transition: .2s ease;
+  color: #fff; }
+
+.btn-default:hover {
+  text-decoration: none; }
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl,
+.btn-default:hover {
+  color: #fff;
+  background-color: #a50404;
+  border-color: #a50404; }
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  background-image: none; }
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active,
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active,
+.navbar-default .navbar-toggle {
+  background-color: #a50404;
+  border-color: #a50404; }
+
+.btn-primary .badge,
+.btn-xl .badge {
+  color: #a50404;
+  background-color: #fff; }
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus,
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #a50404; }
+
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+    border: 0;
+    padding: 10px 0; }
+  .navbar-default .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s; }
+  .navbar-default .navbar-nav > .active > a {
+    border-radius: 3px; }
+  .navbar-default.navbar-shrink {
+    background-color: #222;
+    padding: 10px 0; }
+  .navbar-default.navbar-shrink .navbar-brand {
+    font-size: 1.5em; }
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px; }
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px; }
+  header .intro-text .intro-heading {
+    font-family: PT Sans Narrow, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px; }
+  .timeline:before {
+    left: 50%; }
+  .timeline > li {
+    margin-bottom: 100px;
+    min-height: 100px; }
+  .timeline > li .timeline-panel {
+    width: 41%;
+    float: left;
+    text-align: right;
+    padding: 0 20px 20px 30px; }
+  .timeline > li .timeline-image {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px; }
+  .timeline > li .timeline-image h4 {
+    font-size: 13px;
+    margin-top: 16px;
+    line-height: 18px; }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    text-align: left;
+    padding: 0 30px 20px 20px; } }
+
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px; } }
+
+@media (min-width: 992px) {
+  header h1 {
+    font-size: 7em;
+    letter-spacing: 0.1em;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-top: 5vh; }
+  header h2 {
+    font-size: 3.5em;
+    letter-spacing: 0.05em;
+    margin-top: 0px;
+    margin-bottom: 30px; }
+  header h3 {
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 30px; }
+  .navbar-default .nav li a {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .timeline > li {
+    min-height: 150px; }
+  .timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px; }
+  .timeline > li .timeline-image h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 26px; }
+  .timeline > li .timeline-panel,
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 20px 20px; } }
+
+@media (min-width: 1200px) {
+  header h1 {
+    padding-top: 20vh; }
+  header #designLandingSplash {
+    height: 100vh; }
+  header #codeLandingSplash {
+    height: 100vh; }
+  .timeline > li {
+    min-height: 170px; }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px 100px; }
+  .timeline > li .timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px; }
+  .timeline > li .timeline-image h4 {
+    margin-top: 40px; }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 100px 20px 20px; }
+  header #logoSplash {
+    display: inline-block;
+    padding: 30px; } }

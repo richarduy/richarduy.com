@@ -1,0 +1,163 @@
+@mixin background-cover($url) {
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@mixin background-logo($url) {
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: 80%;
+    background-blend-mode: lighten;
+}
+
+$gray: #282828;
+
+
+#web_portfolio {
+    @include background-cover("../img/webBanner.jpg");
+    text-align: center;
+    color: #fff;
+    filter: grayscale(100%);
+    text-shadow: 0 0 10px #000000;
+}
+
+.border-padding {
+    padding: 20px;
+}
+
+.border {
+    border: 5px solid #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.box {
+    min-height: 50vh;
+}
+
+.banner {
+    min-height: 90vh;
+    position: relative;
+}
+
+
+.banner>h2 {
+    font-size: 5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-30%);
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.section-heading,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.6);
+    display:block;
+    margin:0 0;
+    padding:0 0;
+}
+
+.dinasig-services {
+
+    filter: grayscale(60%);
+    color: #fff;
+    height: 100%;
+    background-color: $gray;
+    @include background-cover("../img/webDinasig.jpg");
+}
+
+.dinasig-mockup {
+    background-image: url("../img/logoDinasig.png");
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-position: -70% 100%;
+    background-size: 75% auto ; 
+    background-color: $gray;
+}
+
+.gaynerds-services {
+    color: #fff;
+    height: 100%;
+    background-color: $gray;    
+
+}
+
+
+.gaynerds-mockup {
+
+    @include background-cover("../img/webGayNerds.jpg");
+}
+
+.tarsier-services {
+    color: #fff;
+    height: 100%;
+    background-color: $gray;
+}
+
+.tarsier-mockup {
+    @include background-cover("../img/webTarsier.jpg");
+}
+
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.title-logo {
+    width: 10vh;
+    height: auto;
+    float: left;
+}
+
+.device-mockup {
+    padding: 5vh;
+}
+
+.overlay {
+    background-image: url("../img/filter.png");
+}
+
+@media (min-width:768px) {
+    .device-mockup {
+        padding: 10vh 5vh;
+    }
+    .table-row {
+        min-height: 100vh;
+        display: table;
+    }
+    .table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .table-row .box {
+        background: none;
+        position: static;
+    }
+}
+
+@media (min-width:992px) {}
+
+@media (min-width:1200px) {}
