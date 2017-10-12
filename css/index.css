@@ -1,0 +1,47 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem; }
+
+.navbar {
+  background-color: #fff;
+  border-color: transparent;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  font-size: 1.2rem;
+  font-family: PT Sans Narrow, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase; }
+
+.navbar-brand img {
+  height: 3rem;
+  float: left;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem; }
+
+.navbar-brand {
+  color: #222;
+  font-family: PT Sans Narrow, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.9rem; }
+
+.navbar.navbar-collapse {
+  border-color: white;
+  padding: .25rem .5rem; }
+
+.navbar-toggler {
+  background-color: #a50404; }
+
+.custom-toggler.navbar-toggler {
+  border-color: white; }
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
+.navbar .navbar-toggler .icon-bar {
+  background-color: #fff; }
+
+.nav-item {
+  padding: .5rem 0; }
+
+.nav-item a {
+  font-weight: 700;
+  color: #222;
+  padding: 0 0.5rem; }
