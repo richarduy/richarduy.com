@@ -1,0 +1,189 @@
+.container {
+  padding: 0;
+  margin: 0; }
+
+body {
+  overflow: hidden; }
+
+#designLandingSplash, #codeLandingSplash {
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #fff;
+  height: 45vh; }
+
+#codeLandingSplash {
+  background-image: url(../img/coding.jpg); }
+
+#designLandingSplash {
+  background-image: url(../img/KlimtBG.jpg); }
+
+#codeLandingSplash .overlay:hover, #designLandingSplash .overlay:hover {
+  background: transparent; }
+
+.overlay {
+  background-image: url("../img/filter.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  color: #fff;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease; }
+
+a.fill-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  opacity: 0; }
+
+.overlay {
+  text-transform: uppercase;
+  font-family: PT Sans Narrow, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.05rem;
+  padding: 10vh 0 0 0; }
+
+.overlay h1, .overlay h2, .overlay h3 {
+  font-weight: bold;
+  color: #fff; }
+
+.overlay a {
+  color: #fff; }
+
+.overlay h1 {
+  font-size: 3rem;
+  letter-spacing: 0.1rem; }
+
+.overlay h2 {
+  font-size: 2rem; }
+
+.overlay h3 {
+  margin-top: 2vh;
+  font-size: 1rem; }
+
+.btn-default {
+  font-family: "Pt Sans Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: transparent;
+  display: inline-block;
+  border-radius: 2px;
+  border: none;
+  padding: 5px;
+  border: 1px solid #fff;
+  transition: .2s ease;
+  color: #fff; }
+
+.btn-default:hover {
+  text-decoration: none; }
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl,
+.btn-default:hover {
+  color: #fff;
+  background-color: #a50404;
+  border-color: #a50404; }
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  background-image: none; }
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active,
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active,
+.navbar-default .navbar-toggle {
+  background-color: #a50404;
+  border-color: #a50404; }
+
+.btn-primary .badge,
+.btn-xl .badge {
+  color: #a50404;
+  background-color: #fff; }
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus,
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #a50404; }
+
+@media (min-width: 992px) {
+  body {
+    font-size: 2.5vh; }
+  #designLandingSplash, #codeLandingSplash {
+    height: 100vh; }
+  .overlay {
+    padding: 25vh 0 0 0; }
+  .overlay h1 {
+    font-size: 5rem;
+    letter-spacing: 0.7rem; }
+  .overlay h2 {
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem; }
+  .overlay h3 {
+    margin-top: 5vh;
+    font-size: 1.5rem; } }
+
+@media (min-width: 1200px) {
+  .overlay {
+    padding: 25vh 0 0 0; }
+  .overlay h1 {
+    font-size: 7rem;
+    letter-spacing: 0.7rem; }
+  .overlay h2 {
+    font-size: 3rem;
+    letter-spacing: 0.1rem; }
+  .overlay h3 {
+    margin-top: 5vh;
+    font-size: 2rem; } }
