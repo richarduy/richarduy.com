@@ -72,6 +72,23 @@ background-color: $primary-highlight-color;
     padding: 0 0.5rem;
 }
 
+.navbar-nav li a:hover,
+.navbar-nav li a:focus {
+    color: $primary-highlight-color;
+    outline: 0;
+}
+
+.navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: $primary-highlight-color;
+}
+
+.navbar-nav>.active>a:hover,
+.navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: $primary-highlight-color;
+}
 
 
 

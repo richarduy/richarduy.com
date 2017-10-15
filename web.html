@@ -3,66 +3,160 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
     <title>Richard Uy - Web Development and Graphic Design</title>
+
     <!--build:css css/styles.min.css-->
-    <!-- Bootstrap Core CSS -->
-    <link href="css/normalize.css" rel="stylesheet">
-    <!-- Custom CSS -->
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/web.css" rel="stylesheet">
     <!--endbuild-->
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow: 700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="/.."><img src="img/logoRed.svg"> RICHARD UY</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="web.html">Web Development</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="design.html">Illustration & Design</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="resume.html">Resume</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+
+        <a class="navbar-brand align-middle" href="#page-top"><img class="d-inline-block align-middle" src="img/logoRed.svg">Richard Uy</a>
+
+        <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="ml-auto navbar-nav ">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="web.html">Web Development <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="design.html"> Illustration & Design <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.pdf"> Resume <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"> Contact<span class="sr-only"></span></a>
+                </li>
+            </ul>
         </div>
-        <!-- /.container-fluid -->
     </nav>
+
+
+
+    <!-- Dinasig Services Section -->
+    <section id="dinasig">
+        <div class="container-fluid">
+            <div class="row row-eq-height">
+                <div class="col-md-8 .col-12 dinasig-mockup">
+                        <img class="img-fluid device-mockup" src="img/dinasigDevice.png">
+                </div>
+                <div class="col-md-4 .col-12 dinasig-services services">
+                            <h2 class="section-heading">
+                            <img src="/img/logoDinasig.png" class="title-logo dinasig-logo">
+                            Dinasig Website
+                            </h2>
+                            <hr>
+                            <h3 class="section-subheading">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- GayNerds Services Section -->
+    <section id="gaynerds">
+        <div class="container-fluid">
+            <div class="row table-row">
+                <div class="col-sm-8 col-sm-push-4 gaynerds-mockup">
+                    <div class="box">
+                        <h2 class="section-heading">Gay-Nerds.com Website</h2>
+                        <img class="img-responsive device-mockup" src="img/gaynerdsDevice.png">
+                    </div>
+                </div>
+                <div class="col-sm-4  col-sm-pull-8 gaynerds-services">
+                    <div class="box">
+                        <h2 class="section-heading">Services</h2>
+                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tarsier Services Section -->
+    <section id="tarsier">
+        <div class="container-fluid">
+            <div class="row table-row">
+                <div class="col-sm-8 tarsier-mockup">
+                    <div class="box">
+                        <h2 class="section-heading">Philippine Tarsier Foundation Website</h2>
+                        <img class="img-responsive device-mockup" src="img/tarsierDevice.png">
+                    </div>
+                </div>
+                <div class="col-sm-4 tarsier-services">
+                    <div class="box">
+                        <h2 class="section-heading">Services</h2>
+                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fun Section -->
+    <section id="lemons">
+        <div class="container-fluid">
+            <div class="row table-row">
+                <div class="col-sm-4">
+                    <div class="box">
+                        <h2 class="section-heading">Lemons</h2>
+                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="box">
+                        <h2 class="section-heading">Philippine Tarsier Foundation Website</h2>
+                        <img class="img-responsive device-mockup" src="img/tarsierDevice.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="js/jquery-3.2.1.slim.min.js"><\/script>')
+    </script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
 </body>
 
 </html>

@@ -45,3 +45,18 @@ body {
   font-weight: 700;
   color: #222;
   padding: 0 0.5rem; }
+
+.navbar-nav li a:hover,
+.navbar-nav li a:focus {
+  color: #a50404;
+  outline: 0; }
+
+.navbar-nav > .active > a {
+  border-radius: 0;
+  color: #fff;
+  background-color: #a50404; }
+
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #a50404; }

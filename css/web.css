@@ -26,7 +26,7 @@
   min-height: 50vh; }
 
 .banner {
-  min-height: 90vh;
+  min-height: 50vh;
   position: relative; }
 
 .banner > h2 {
@@ -122,14 +122,4 @@ h6 {
 
 @media (min-width: 768px) {
   .device-mockup {
-    padding: 10vh 5vh; }
-  .table-row {
-    min-height: 100vh;
-    display: table; }
-  .table-row [class*="col-"] {
-    float: none;
-    display: table-cell;
-    vertical-align: middle; }
-  .table-row .box {
-    background: none;
-    position: static; } }
+    padding: 10vh 5vh; } }
