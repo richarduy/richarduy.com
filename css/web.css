@@ -12,9 +12,6 @@
   filter: grayscale(100%);
   text-shadow: 0 0 10px #000000; }
 
-.border-padding {
-  padding: 20px; }
-
 .border {
   border: 5px solid #fff;
   -webkit-box-sizing: border-box;
@@ -30,7 +27,7 @@
   position: relative; }
 
 .banner > h2 {
-  font-size: 5em;
+  font-size: 5rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -47,16 +44,8 @@ h5,
 h6 {
   margin: 0 0; }
 
-.overlay {
-  background: rgba(0, 0, 0, 0.6);
-  display: block;
-  margin: 0 0;
-  padding: 0 0; }
-
 .dinasig-services {
-  filter: grayscale(60%);
   color: #fff;
-  height: 100%;
   background-color: #282828;
   background-image: url("../img/webDinasig.jpg");
   background-repeat: no-repeat;
@@ -65,10 +54,11 @@ h6 {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  text-shadow: 1px 1px 5px #282828; }
 
 .dinasig-mockup {
-  background-image: url("../img/logoDinasig.png");
+  background-image: url("../img/logoDinasigFade.png");
   background-repeat: no-repeat;
   background-attachment: relative;
   background-position: -70% 100%;
@@ -77,10 +67,7 @@ h6 {
 
 .gaynerds-services {
   color: #fff;
-  height: 100%;
-  background-color: #282828; }
-
-.gaynerds-mockup {
+  background-color: #282828;
   background-image: url("../img/webGayNerds.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -88,14 +75,20 @@ h6 {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  text-shadow: 1px 1px 5px #282828; }
+
+.gaynerds-mockup {
+  background-image: url("../img/logoGayNerdsFade.png");
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-position: -70% 100%;
+  background-size: 75% auto;
+  background-color: #282828; }
 
 .tarsier-services {
   color: #fff;
-  height: 100%;
-  background-color: #282828; }
-
-.tarsier-mockup {
+  background-color: #282828;
   background-image: url("../img/webTarsier.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -103,7 +96,16 @@ h6 {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  text-shadow: 1px 1px 5px #282828; }
+
+.tarsier-mockup {
+  background-image: url("../img/logoTarsier.jpg");
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-position: -70% 100%;
+  background-size: 75% auto;
+  background-color: #282828; }
 
 .container-fluid {
   padding-right: 0;
@@ -115,11 +117,17 @@ h6 {
   float: left; }
 
 .device-mockup {
-  padding: 5vh; }
+  padding: 5vh 3vh; }
 
 .overlay {
   background-image: url("../img/filter.png"); }
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
 @media (min-width: 768px) {
   .device-mockup {
-    padding: 10vh 5vh; } }
+    padding: 10vh; } }

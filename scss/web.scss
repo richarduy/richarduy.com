@@ -18,7 +18,26 @@
     background-blend-mode: lighten;
 }
 
+@mixin services($url) {
+    color: #fff;
+    background-color: $gray;
+    @include background-cover($url);
+    text-shadow: 1px 1px 5px $gray;
+}
+
+@mixin mockup($url){
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-position: -70% 100%;
+    background-size: 75% auto ; 
+    background-color: $gray;
+}
+
+
 $gray: #282828;
+
+
 
 
 #web_portfolio {
@@ -29,9 +48,7 @@ $gray: #282828;
     text-shadow: 0 0 10px #000000;
 }
 
-.border-padding {
-    padding: 20px;
-}
+
 
 .border {
     border: 5px solid #fff;
@@ -52,7 +69,7 @@ $gray: #282828;
 
 
 .banner>h2 {
-    font-size: 5em;
+    font-size: 5rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -71,52 +88,29 @@ h6 {
     margin: 0 0;
 }
 
-.overlay{
-    background: rgba(0, 0, 0, 0.6);
-    display:block;
-    margin:0 0;
-    padding:0 0;
-}
-
 .dinasig-services {
-
-    filter: grayscale(60%);
-    color: #fff;
-    height: 100%;
-    background-color: $gray;
-    @include background-cover("../img/webDinasig.jpg");
+    @include services("../img/webDinasig.jpg");
 }
 
 .dinasig-mockup {
-    background-image: url("../img/logoDinasig.png");
-    background-repeat: no-repeat;
-    background-attachment: relative;
-    background-position: -70% 100%;
-    background-size: 75% auto ; 
-    background-color: $gray;
+    @include mockup("../img/logoDinasigFade.png");
 }
 
 .gaynerds-services {
-    color: #fff;
-    height: 100%;
-    background-color: $gray;    
-
+    @include services("../img/webGayNerds.jpg");
 }
 
 
 .gaynerds-mockup {
-
-    @include background-cover("../img/webGayNerds.jpg");
+    @include mockup("../img/logoGayNerdsFade.png");
 }
 
 .tarsier-services {
-    color: #fff;
-    height: 100%;
-    background-color: $gray;
+    @include services("../img/webTarsier.jpg");
 }
 
 .tarsier-mockup {
-    @include background-cover("../img/webTarsier.jpg");
+    @include mockup("../img/logoTarsier.jpg");
 }
 
 
@@ -132,16 +126,25 @@ h6 {
 }
 
 .device-mockup {
-    padding: 5vh;
+    padding:5vh 3vh;
 }
 
 .overlay {
     background-image: url("../img/filter.png");
 }
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
+
 @media (min-width:768px) {
     .device-mockup {
-        padding: 10vh 5vh;
+        padding:10vh;
     }
 }
 
