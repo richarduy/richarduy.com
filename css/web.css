@@ -65,6 +65,22 @@ h6 {
   background-size: 75% auto;
   background-color: #282828; }
 
+.cartographer-services {
+  color: #fff;
+  background-color: #282828;
+  background-image: url("../img/webCartographer.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-shadow: 1px 1px 5px #282828; }
+
+.cartographer-mockup {
+  background-color: #282828; }
+
 .gaynerds-services {
   color: #fff;
   background-color: #282828;
@@ -100,11 +116,6 @@ h6 {
   text-shadow: 1px 1px 5px #282828; }
 
 .tarsier-mockup {
-  background-image: url("../img/logoTarsier.jpg");
-  background-repeat: no-repeat;
-  background-attachment: relative;
-  background-position: -70% 100%;
-  background-size: 75% auto;
   background-color: #282828; }
 
 .container-fluid {
@@ -126,8 +137,10 @@ h6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  min-height: 50vh; }
 
 @media (min-width: 768px) {
   .device-mockup {
-    padding: 10vh; } }
+    padding: 10vh; }
+  min-height: 100vh; }

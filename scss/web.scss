@@ -96,6 +96,15 @@ h6 {
     @include mockup("../img/logoDinasigFade.png");
 }
 
+.cartographer-services {
+    @include services("../img/webCartographer.jpg");
+}
+
+.cartographer-mockup {
+    background-color: $gray;
+}
+
+
 .gaynerds-services {
     @include services("../img/webGayNerds.jpg");
 }
@@ -110,7 +119,7 @@ h6 {
 }
 
 .tarsier-mockup {
-    @include mockup("../img/logoTarsier.jpg");
+    background-color: $gray;
 }
 
 
@@ -138,6 +147,7 @@ h6 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display:         flex;
+  min-height:50vh;
 }
 
 
@@ -146,6 +156,7 @@ h6 {
     .device-mockup {
         padding:10vh;
     }
+      min-height:100vh;
 }
 
 @media (min-width:992px) {}
