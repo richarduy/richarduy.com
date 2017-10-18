@@ -63,7 +63,13 @@ h6 {
   background-attachment: relative;
   background-position: -70% 100%;
   background-size: 75% auto;
-  background-color: #282828; }
+  background-color: #282828;
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  display: flex;
+  align-items: center; }
 
 .cartographer-services {
   color: #fff;
@@ -100,7 +106,13 @@ h6 {
   background-attachment: relative;
   background-position: -70% 100%;
   background-size: 75% auto;
-  background-color: #282828; }
+  background-color: #282828;
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  display: flex;
+  align-items: center; }
 
 .tarsier-services {
   color: #fff;
@@ -128,7 +140,7 @@ h6 {
   float: left; }
 
 .device-mockup {
-  padding: 5vh 3vh; }
+  padding: 10vh 3vh; }
 
 .overlay {
   background-image: url("../img/filter.png"); }
@@ -143,4 +155,5 @@ h6 {
 @media (min-width: 768px) {
   .device-mockup {
     padding: 10vh; }
-  min-height: 100vh; }
+  .row-eq-height {
+    min-height: 80vh; } }

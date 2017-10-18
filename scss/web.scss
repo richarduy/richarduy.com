@@ -32,6 +32,10 @@
     background-position: -70% 100%;
     background-size: 75% auto ; 
     background-color: $gray;
+        display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
 }
 
 
@@ -135,7 +139,7 @@ h6 {
 }
 
 .device-mockup {
-    padding:5vh 3vh;
+    padding:10vh 3vh;
 }
 
 .overlay {
@@ -156,7 +160,9 @@ h6 {
     .device-mockup {
         padding:10vh;
     }
-      min-height:100vh;
+    .row-eq-height {
+      min-height:80vh;
+  }
 }
 
 @media (min-width:992px) {}
