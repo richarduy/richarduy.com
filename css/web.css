@@ -143,7 +143,9 @@ h6 {
   padding: 10vh 3vh; }
 
 .overlay {
-  background-image: url("../img/filter.png"); }
+  background-image: url("../img/filter.png");
+  width: 100%;
+  height: 100%; }
 
 .row-eq-height {
   display: -webkit-box;
